@@ -10,6 +10,14 @@ The curriculum and page structure follow the workbook *এসো সহজে �
 drills with direction labels, then one row per letter showing the letter built
 up stroke by stroke, dotted letters to trace, and empty cells to fill in.
 
+## Screenshots
+
+| Home | Letter grid | Watch | Trace | Reward |
+| --- | --- | --- | --- | --- |
+| ![home](docs/screenshots/home.png) | ![vowels](docs/screenshots/vowels.png) | ![watch](docs/screenshots/watch.png) | ![trace](docs/screenshots/trace.png) | ![celebration](docs/screenshots/celebration.png) |
+
+Captured from the web build in a 412×915 viewport; the practice screen also has a landscape layout (`docs/screenshots/landscape.png`).
+
 ## What the app does
 
 | Section | Content |
