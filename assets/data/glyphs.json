@@ -1,0 +1,3489 @@
+{
+ "version": 1,
+ "box": 100,
+ "matra_y": 22,
+ "baseline_y": 78,
+ "categories": [
+  {
+   "id": "pre",
+   "title_bn": "হাত ঘুরাই",
+   "title_en": "Pre-writing strokes",
+   "subtitle_bn": "রেখা ও বাঁক আঁকি",
+   "subtitle_en": "Lines, slants & curves",
+   "emoji": "✏️",
+   "color": "#F97316",
+   "script": "pre"
+  },
+  {
+   "id": "bn_vowel",
+   "title_bn": "স্বরবর্ণ",
+   "title_en": "Bengali vowels",
+   "subtitle_bn": "অ আ ই ঈ …",
+   "subtitle_en": "অ আ ই ঈ …",
+   "emoji": "🌼",
+   "color": "#E11D48",
+   "script": "bn"
+  },
+  {
+   "id": "bn_cons",
+   "title_bn": "ব্যঞ্জনবর্ণ",
+   "title_en": "Bengali consonants",
+   "subtitle_bn": "ক খ গ ঘ …",
+   "subtitle_en": "ক খ গ ঘ …",
+   "emoji": "🐘",
+   "color": "#0D9488",
+   "script": "bn"
+  },
+  {
+   "id": "bn_digit",
+   "title_bn": "বাংলা সংখ্যা",
+   "title_en": "Bengali numbers",
+   "subtitle_bn": "০ ১ ২ ৩ …",
+   "subtitle_en": "০ ১ ২ ৩ …",
+   "emoji": "🔢",
+   "color": "#7C3AED",
+   "script": "bn"
+  },
+  {
+   "id": "en_upper",
+   "title_bn": "ইংরেজি বড় হাতের অক্ষর",
+   "title_en": "English capital letters",
+   "subtitle_bn": "A B C D …",
+   "subtitle_en": "A B C D …",
+   "emoji": "🅰️",
+   "color": "#2563EB",
+   "script": "en"
+  },
+  {
+   "id": "en_lower",
+   "title_bn": "ইংরেজি ছোট হাতের অক্ষর",
+   "title_en": "English small letters",
+   "subtitle_bn": "a b c d …",
+   "subtitle_en": "a b c d …",
+   "emoji": "🔡",
+   "color": "#0891B2",
+   "script": "en"
+  },
+  {
+   "id": "en_digit",
+   "title_bn": "ইংরেজি সংখ্যা",
+   "title_en": "English numbers",
+   "subtitle_bn": "0 1 2 3 …",
+   "subtitle_en": "0 1 2 3 …",
+   "emoji": "🔟",
+   "color": "#CA8A04",
+   "script": "en"
+  }
+ ],
+ "glyphs": [
+  {
+   "id": "pre_00",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M50 14 L50 86",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw from top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে আঁক",
+   "name_en": "Draw from top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "line_down"
+  },
+  {
+   "id": "pre_01",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M50 86 L50 14",
+     "hint_bn": "নিচ থেকে উপরে আঁক",
+     "hint_en": "Draw from bottom to top"
+    }
+   ],
+   "name_bn": "নিচ থেকে উপরে আঁক",
+   "name_en": "Draw from bottom to top",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "line_up"
+  },
+  {
+   "id": "pre_02",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M14 50 L86 50",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw from left to right"
+    }
+   ],
+   "name_bn": "বাম থেকে ডানে আঁক",
+   "name_en": "Draw from left to right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "line_lr"
+  },
+  {
+   "id": "pre_03",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M86 50 L14 50",
+     "hint_bn": "ডান থেকে বামে আঁক",
+     "hint_en": "Draw from right to left"
+    }
+   ],
+   "name_bn": "ডান থেকে বামে আঁক",
+   "name_en": "Draw from right to left",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "line_rl"
+  },
+  {
+   "id": "pre_04",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M30 14 L70 86",
+     "hint_bn": "উপর থেকে নিচে বাঁকা আঁক",
+     "hint_en": "Slant: top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে বাঁকা আঁক",
+   "name_en": "Slant: top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "slant_down"
+  },
+  {
+   "id": "pre_05",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M30 86 L70 14",
+     "hint_bn": "নিচ থেকে উপরে বাঁকা আঁক",
+     "hint_en": "Slant: bottom to top"
+    }
+   ],
+   "name_bn": "নিচ থেকে উপরে বাঁকা আঁক",
+   "name_en": "Slant: bottom to top",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "slant_up"
+  },
+  {
+   "id": "pre_06",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M70 14 L30 86",
+     "hint_bn": "উপর থেকে নিচে বাঁকা আঁক",
+     "hint_en": "Slant: top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে বাঁকা আঁক",
+   "name_en": "Slant: top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "slant_down2"
+  },
+  {
+   "id": "pre_07",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M70 86 L30 14",
+     "hint_bn": "নিচ থেকে উপরে বাঁকা আঁক",
+     "hint_en": "Slant: bottom to top"
+    }
+   ],
+   "name_bn": "নিচ থেকে উপরে বাঁকা আঁক",
+   "name_en": "Slant: bottom to top",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "slant_up2"
+  },
+  {
+   "id": "pre_08",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M72 14 L28 50 L72 86",
+     "hint_bn": "উপর থেকে নিচে কোণা আঁক",
+     "hint_en": "Angle: top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে কোণা আঁক",
+   "name_en": "Angle: top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "zig_lt"
+  },
+  {
+   "id": "pre_09",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M72 86 L28 50 L72 14",
+     "hint_bn": "নিচ থেকে উপরে কোণা আঁক",
+     "hint_en": "Angle: bottom to top"
+    }
+   ],
+   "name_bn": "নিচ থেকে উপরে কোণা আঁক",
+   "name_en": "Angle: bottom to top",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "zig_lt_up"
+  },
+  {
+   "id": "pre_10",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M28 14 L72 50 L28 86",
+     "hint_bn": "উপর থেকে নিচে কোণা আঁক",
+     "hint_en": "Angle: top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে কোণা আঁক",
+   "name_en": "Angle: top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "zig_gt"
+  },
+  {
+   "id": "pre_11",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M28 86 L72 50 L28 14",
+     "hint_bn": "নিচ থেকে উপরে কোণা আঁক",
+     "hint_en": "Angle: bottom to top"
+    }
+   ],
+   "name_bn": "নিচ থেকে উপরে কোণা আঁক",
+   "name_en": "Angle: bottom to top",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "zig_gt_up"
+  },
+  {
+   "id": "pre_12",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M18 82 Q50 0 82 82",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Arch: left to right"
+    }
+   ],
+   "name_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+   "name_en": "Arch: left to right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "arch"
+  },
+  {
+   "id": "pre_13",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M82 82 Q50 0 18 82",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Arch: right to left"
+    }
+   ],
+   "name_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+   "name_en": "Arch: right to left",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "arch_rl"
+  },
+  {
+   "id": "pre_14",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M18 18 Q50 100 82 18",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Cup: left to right"
+    }
+   ],
+   "name_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+   "name_en": "Cup: left to right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "cup"
+  },
+  {
+   "id": "pre_15",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M66 14 Q22 50 66 86",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve: top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+   "name_en": "Curve: top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "paren_l"
+  },
+  {
+   "id": "pre_16",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M34 14 Q78 50 34 86",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve: top to bottom"
+    }
+   ],
+   "name_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+   "name_en": "Curve: top to bottom",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "paren_r"
+  },
+  {
+   "id": "pre_17",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M50 18 A32 32 0 1 0 50 82 A32 32 0 1 0 50 18",
+     "hint_bn": "বাম দিকে ঘুরিয়ে গোল আঁক",
+     "hint_en": "Circle: turn left"
+    }
+   ],
+   "name_bn": "বাম দিকে ঘুরিয়ে গোল আঁক",
+   "name_en": "Circle: turn left",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "circle_ccw"
+  },
+  {
+   "id": "pre_18",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M50 18 A32 32 0 1 1 50 82 A32 32 0 1 1 50 18",
+     "hint_bn": "ডান দিকে ঘুরিয়ে গোল আঁক",
+     "hint_en": "Circle: turn right"
+    }
+   ],
+   "name_bn": "ডান দিকে ঘুরিয়ে গোল আঁক",
+   "name_en": "Circle: turn right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "circle_cw"
+  },
+  {
+   "id": "pre_19",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M8 50 Q21 14 34 50 Q47 86 60 50 Q73 14 86 50",
+     "hint_bn": "ঢেউ আঁক",
+     "hint_en": "Wave: left to right"
+    }
+   ],
+   "name_bn": "ঢেউ আঁক",
+   "name_en": "Wave: left to right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "wave"
+  },
+  {
+   "id": "pre_20",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M8 72 L29 28 L50 72 L71 28 L92 72",
+     "hint_bn": "আঁকাবাঁকা রেখা আঁক",
+     "hint_en": "Zigzag: left to right"
+    }
+   ],
+   "name_bn": "আঁকাবাঁকা রেখা আঁক",
+   "name_en": "Zigzag: left to right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "zigzag_h"
+  },
+  {
+   "id": "pre_21",
+   "category": "pre",
+   "char": "",
+   "strokes": [
+    {
+     "d": "M10 70 Q30 10 40 50 Q50 90 60 50 Q70 10 90 70",
+     "hint_bn": "ফাঁস আঁক",
+     "hint_en": "Loops: left to right"
+    }
+   ],
+   "name_bn": "ফাঁস আঁক",
+   "name_en": "Loops: left to right",
+   "word_bn": null,
+   "word_en": null,
+   "emoji": null,
+   "sound": null,
+   "key": "loop"
+  },
+  {
+   "id": "bn_vowel_00",
+   "category": "bn_vowel",
+   "char": "অ",
+   "strokes": [
+    {
+     "d": "M12 22 L90 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M22 36 Q12 52 22 66 Q34 78 56 74 Q70 70 80 66",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M22 36 Q30 32 44 32 Q58 34 56 46 Q52 54 40 52",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M82 22 L82 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "স্বরে অ",
+   "name_en": "a (ô)",
+   "word_bn": "অজগর",
+   "word_en": "python",
+   "emoji": "🐍",
+   "sound": "অ"
+  },
+  {
+   "id": "bn_vowel_01",
+   "category": "bn_vowel",
+   "char": "আ",
+   "strokes": [
+    {
+     "d": "M10 22 L86 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M16 36 Q8 52 16 66 Q28 78 46 74 Q54 72 58 68",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M16 36 Q24 32 36 32 Q50 34 48 46 Q44 54 34 52",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M58 22 L58 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M84 22 L84 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "স্বরে আ",
+   "name_en": "aa",
+   "word_bn": "আম",
+   "word_en": "mango",
+   "emoji": "🥭",
+   "sound": "আ"
+  },
+  {
+   "id": "bn_vowel_02",
+   "category": "bn_vowel",
+   "char": "ই",
+   "strokes": [
+    {
+     "d": "M28 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M34 50 Q34 34 48 34 Q62 34 62 48 Q62 62 44 64 L34 65 L64 76",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M66 22 Q68 8 56 8 L36 9",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve right to left"
+    }
+   ],
+   "name_bn": "হ্রস্ব ই",
+   "name_en": "i",
+   "word_bn": "ইলিশ",
+   "word_en": "hilsa fish",
+   "emoji": "🐟",
+   "sound": "ই"
+  },
+  {
+   "id": "bn_vowel_03",
+   "category": "bn_vowel",
+   "char": "ঈ",
+   "strokes": [
+    {
+     "d": "M18 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M30 52 Q30 34 46 34 Q58 34 56 46 Q54 58 34 66",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M32 67 L72 38 Q73 60 68 76",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M74 22 Q76 8 62 8 L36 9",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve right to left"
+    }
+   ],
+   "name_bn": "দীর্ঘ ঈ",
+   "name_en": "ii",
+   "word_bn": "ঈগল",
+   "word_en": "eagle",
+   "emoji": "🦅",
+   "sound": "ঈ"
+  },
+  {
+   "id": "bn_vowel_04",
+   "category": "bn_vowel",
+   "char": "উ",
+   "strokes": [
+    {
+     "d": "M20 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M53 22 L53 50",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M28 42 L28 56 Q28 75 50 75 Q73 75 73 55 L73 44 Q68 46 63 50",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M72 22 Q74 8 60 8 L30 8 L28 12",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve right to left"
+    }
+   ],
+   "name_bn": "হ্রস্ব উ",
+   "name_en": "u",
+   "word_bn": "উট",
+   "word_en": "camel",
+   "emoji": "🐪",
+   "sound": "উ"
+  },
+  {
+   "id": "bn_vowel_05",
+   "category": "bn_vowel",
+   "char": "ঊ",
+   "strokes": [
+    {
+     "d": "M18 22 L85 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M53 22 L53 50",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M22 42 L22 56 Q22 75 48 75 Q74 75 74 55 L74 44 Q69 46 64 50",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M36 42 Q33 64 50 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M76 22 Q78 8 64 8 L30 8 L28 12",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve right to left"
+    }
+   ],
+   "name_bn": "দীর্ঘ ঊ",
+   "name_en": "uu",
+   "word_bn": "ঊষা",
+   "word_en": "dawn",
+   "emoji": "🌅",
+   "sound": "ঊ"
+  },
+  {
+   "id": "bn_vowel_06",
+   "category": "bn_vowel",
+   "char": "ঋ",
+   "strokes": [
+    {
+     "d": "M18 22 L86 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M18 25 Q20 38 33 36",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M52 25 L18 60 L52 76 L52 58 L73 58",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    },
+    {
+     "d": "M73 13 L73 72",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ঋ",
+   "name_en": "ri",
+   "word_bn": "ঋষি",
+   "word_en": "sage",
+   "emoji": "🧘",
+   "sound": "ঋ"
+  },
+  {
+   "id": "bn_vowel_07",
+   "category": "bn_vowel",
+   "char": "এ",
+   "strokes": [
+    {
+     "d": "M68 24 L68 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M68 24 L40 24 Q30 24 30 40 Q30 53 50 52",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    },
+    {
+     "d": "M20 57 Q20 74 36 74 Q50 74 68 70",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "এ",
+   "name_en": "e",
+   "word_bn": "একতারা",
+   "word_en": "ektara",
+   "emoji": "🎸",
+   "sound": "এ"
+  },
+  {
+   "id": "bn_vowel_08",
+   "category": "bn_vowel",
+   "char": "ঐ",
+   "strokes": [
+    {
+     "d": "M58 24 L58 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M58 24 L36 24 Q28 24 28 40 Q28 52 46 52",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M18 57 Q18 74 32 74 Q46 74 60 70",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M26 8 L56 6 Q78 6 78 28 Q78 40 70 44",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ঐ",
+   "name_en": "oi",
+   "word_bn": "ঐরাবত",
+   "word_en": "Airavata (elephant)",
+   "emoji": "🐘",
+   "sound": "ঐ"
+  },
+  {
+   "id": "bn_vowel_09",
+   "category": "bn_vowel",
+   "char": "ও",
+   "strokes": [
+    {
+     "d": "M28 42 Q28 24 46 24 Q64 24 62 42 Q60 52 48 52 Q68 52 68 66 Q68 76 48 76 Q24 76 24 56",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ও",
+   "name_en": "o",
+   "word_bn": "ওল",
+   "word_en": "yam",
+   "emoji": "🍠",
+   "sound": "ও"
+  },
+  {
+   "id": "bn_vowel_10",
+   "category": "bn_vowel",
+   "char": "ঔ",
+   "strokes": [
+    {
+     "d": "M28 42 Q28 24 46 24 Q64 24 62 42 Q60 52 48 52 Q68 52 68 66 Q68 76 48 76 Q24 76 24 56",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M26 10 L56 6 Q80 6 80 30 Q80 44 70 50",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ঔ",
+   "name_en": "ou",
+   "word_bn": "ঔষধ",
+   "word_en": "medicine",
+   "emoji": "💊",
+   "sound": "ঔ"
+  },
+  {
+   "id": "bn_cons_00",
+   "category": "bn_cons",
+   "char": "ক",
+   "strokes": [
+    {
+     "d": "M20 22 L84 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M71 22 L71 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M56 44 Q46 36 34 38 Q22 42 24 56 Q28 68 42 68 Q58 68 60 60 Q64 66 71 74",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ক",
+   "name_en": "ka",
+   "word_bn": "কলম",
+   "word_en": "pen",
+   "emoji": "✏️",
+   "sound": "ক"
+  },
+  {
+   "id": "bn_cons_01",
+   "category": "bn_cons",
+   "char": "খ",
+   "strokes": [
+    {
+     "d": "M26 22 L90 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M72 10 L72 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M42 30 Q22 28 22 44 Q22 56 42 52",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M52 24 L52 62",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M30 62 L72 76",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "খ",
+   "name_en": "kha",
+   "word_bn": "খরগোশ",
+   "word_en": "rabbit",
+   "emoji": "🐇",
+   "sound": "খ"
+  },
+  {
+   "id": "bn_cons_02",
+   "category": "bn_cons",
+   "char": "গ",
+   "strokes": [
+    {
+     "d": "M44 22 L86 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M70 12 L70 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M24 36 Q22 60 40 64 Q58 64 58 44 Q58 34 50 34",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "গ",
+   "name_en": "ga",
+   "word_bn": "গরু",
+   "word_en": "cow",
+   "emoji": "🐄",
+   "sound": "গ"
+  },
+  {
+   "id": "bn_cons_03",
+   "category": "bn_cons",
+   "char": "ঘ",
+   "strokes": [
+    {
+     "d": "M18 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M68 22 L68 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M48 30 Q24 28 24 42 Q24 52 46 50",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M24 56 L68 76",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ঘ",
+   "name_en": "gha",
+   "word_bn": "ঘর",
+   "word_en": "house",
+   "emoji": "🏠",
+   "sound": "ঘ"
+  },
+  {
+   "id": "bn_cons_04",
+   "category": "bn_cons",
+   "char": "ঙ",
+   "strokes": [
+    {
+     "d": "M22 22 L62 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M44 24 Q34 34 42 44 Q50 50 60 48",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M30 44 Q28 75 52 75 Q76 75 75 52 L75 44 Q70 47 66 51",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M58 24 A8 8 0 1 0 58 42 A8 8 0 1 0 58 24",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "ঙ",
+   "name_en": "nga (uṅo)",
+   "word_bn": "ব্যাঙ",
+   "word_en": "frog",
+   "emoji": "🐸",
+   "sound": "উঙ"
+  },
+  {
+   "id": "bn_cons_05",
+   "category": "bn_cons",
+   "char": "চ",
+   "strokes": [
+    {
+     "d": "M24 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M38 22 L38 56 Q38 75 54 75 Q70 75 70 58 L70 44 Q66 44 62 48",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "চ",
+   "name_en": "ca",
+   "word_bn": "চাঁদ",
+   "word_en": "moon",
+   "emoji": "🌙",
+   "sound": "চ"
+  },
+  {
+   "id": "bn_cons_06",
+   "category": "bn_cons",
+   "char": "ছ",
+   "strokes": [
+    {
+     "d": "M22 22 L78 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M34 22 L34 68 L70 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    },
+    {
+     "d": "M34 36 Q64 30 64 46 Q64 55 42 56 Q66 56 64 66 Q62 72 52 72",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ছ",
+   "name_en": "cha",
+   "word_bn": "ছাতা",
+   "word_en": "umbrella",
+   "emoji": "☂️",
+   "sound": "ছ"
+  },
+  {
+   "id": "bn_cons_07",
+   "category": "bn_cons",
+   "char": "জ",
+   "strokes": [
+    {
+     "d": "M10 22 L90 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M44 26 Q30 34 40 44 Q50 50 62 46",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M20 45 L20 58 Q20 75 46 75 Q72 75 72 56 L72 44 Q68 46 64 49",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M82 22 L80 60 Q79 72 76 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "জ",
+   "name_en": "ja",
+   "word_bn": "জাহাজ",
+   "word_en": "ship",
+   "emoji": "🚢",
+   "sound": "জ"
+  },
+  {
+   "id": "bn_cons_08",
+   "category": "bn_cons",
+   "char": "ঝ",
+   "strokes": [
+    {
+     "d": "M22 22 L84 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M52 26 L20 56 L52 77 L52 58 L73 58",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    },
+    {
+     "d": "M73 13 L73 72",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ঝ",
+   "name_en": "jha",
+   "word_bn": "ঝিনুক",
+   "word_en": "oyster shell",
+   "emoji": "🐚",
+   "sound": "ঝ"
+  },
+  {
+   "id": "bn_cons_09",
+   "category": "bn_cons",
+   "char": "ঞ",
+   "strokes": [
+    {
+     "d": "M56 24 L56 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M56 24 L36 24 Q28 24 28 38 Q28 48 46 46",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M18 56 Q18 74 36 74 Q50 74 56 70",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M56 24 L72 24 Q84 24 84 36 Q84 48 68 48 Q86 48 86 62 Q86 76 70 76 L56 76",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ঞ",
+   "name_en": "nya (iṅo)",
+   "word_bn": "মিঞা",
+   "word_en": "mister",
+   "emoji": "🧔",
+   "sound": "ইঁঅ"
+  },
+  {
+   "id": "bn_cons_10",
+   "category": "bn_cons",
+   "char": "ট",
+   "strokes": [
+    {
+     "d": "M22 22 L76 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M50 22 L50 50",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M28 42 L28 56 Q28 75 50 75 Q70 75 70 56 L70 44 Q66 46 62 50",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M58 22 Q60 10 48 9 L28 9",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve right to left"
+    }
+   ],
+   "name_bn": "ট",
+   "name_en": "ṭa",
+   "word_bn": "টমেটো",
+   "word_en": "tomato",
+   "emoji": "🍅",
+   "sound": "ট"
+  },
+  {
+   "id": "bn_cons_11",
+   "category": "bn_cons",
+   "char": "ঠ",
+   "strokes": [
+    {
+     "d": "M18 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M68 8 Q56 12 50 30 L36 52 Q28 70 46 76 Q66 78 70 58 Q70 42 54 42 Q44 44 46 58",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ঠ",
+   "name_en": "ṭha",
+   "word_bn": "ঠেলাগাড়ি",
+   "word_en": "pushcart",
+   "emoji": "🛒",
+   "sound": "ঠ"
+  },
+  {
+   "id": "bn_cons_12",
+   "category": "bn_cons",
+   "char": "ড",
+   "strokes": [
+    {
+     "d": "M20 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M52 22 L52 50",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M28 42 L28 56 Q28 75 50 75 Q73 75 73 55 L73 44 Q68 46 63 50",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "ড",
+   "name_en": "ḍa",
+   "word_bn": "ডিম",
+   "word_en": "egg",
+   "emoji": "🥚",
+   "sound": "ড"
+  },
+  {
+   "id": "bn_cons_13",
+   "category": "bn_cons",
+   "char": "ঢ",
+   "strokes": [
+    {
+     "d": "M22 22 L78 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M36 22 L36 58 Q36 75 54 75 Q72 75 72 58 L72 44 Q70 40 62 44 Q58 48 62 52",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ঢ",
+   "name_en": "ḍha",
+   "word_bn": "ঢোল",
+   "word_en": "drum",
+   "emoji": "🥁",
+   "sound": "ঢ"
+  },
+  {
+   "id": "bn_cons_14",
+   "category": "bn_cons",
+   "char": "ণ",
+   "strokes": [
+    {
+     "d": "M46 22 L76 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M60 12 L60 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M54 32 Q28 28 28 44 Q28 58 46 56",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M30 58 L60 76",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "মূর্ধন্য ণ",
+   "name_en": "ṇa",
+   "word_bn": "হরিণ",
+   "word_en": "deer",
+   "emoji": "🦌",
+   "sound": "ণ"
+  },
+  {
+   "id": "bn_cons_15",
+   "category": "bn_cons",
+   "char": "ত",
+   "strokes": [
+    {
+     "d": "M18 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M58 42 Q44 32 30 42 Q22 56 36 70 Q56 78 64 60 Q68 48 58 46",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "ত",
+   "name_en": "ta",
+   "word_bn": "তালা",
+   "word_en": "lock",
+   "emoji": "🔒",
+   "sound": "ত"
+  },
+  {
+   "id": "bn_cons_16",
+   "category": "bn_cons",
+   "char": "থ",
+   "strokes": [
+    {
+     "d": "M24 22 L84 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M70 12 L70 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M46 28 Q26 28 26 42 Q26 50 42 48",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M26 54 L70 76",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "থ",
+   "name_en": "tha",
+   "word_bn": "থালা",
+   "word_en": "plate",
+   "emoji": "🍽️",
+   "sound": "থ"
+  },
+  {
+   "id": "bn_cons_17",
+   "category": "bn_cons",
+   "char": "দ",
+   "strokes": [
+    {
+     "d": "M22 22 L76 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M60 22 L60 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M58 44 L27 42 L27 64 L60 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "দ",
+   "name_en": "da",
+   "word_bn": "দরজা",
+   "word_en": "door",
+   "emoji": "🚪",
+   "sound": "দ"
+  },
+  {
+   "id": "bn_cons_18",
+   "category": "bn_cons",
+   "char": "ধ",
+   "strokes": [
+    {
+     "d": "M28 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M62 30 Q30 26 30 42 Q30 54 50 50",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M30 56 L66 76",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ধ",
+   "name_en": "dha",
+   "word_bn": "ধান",
+   "word_en": "paddy",
+   "emoji": "🌾",
+   "sound": "ধ"
+  },
+  {
+   "id": "bn_cons_19",
+   "category": "bn_cons",
+   "char": "ন",
+   "strokes": [
+    {
+     "d": "M18 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M64 22 L64 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M62 40 Q52 30 38 32 Q26 36 26 50 L26 62",
+     "hint_bn": "ডান থেকে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve right to left"
+    }
+   ],
+   "name_bn": "দন্ত্য ন",
+   "name_en": "na",
+   "word_bn": "নৌকা",
+   "word_en": "boat",
+   "emoji": "⛵",
+   "sound": "ন"
+  },
+  {
+   "id": "bn_cons_20",
+   "category": "bn_cons",
+   "char": "প",
+   "strokes": [
+    {
+     "d": "M50 22 L76 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M60 12 L60 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M50 30 Q26 32 26 48 Q26 60 36 64 L60 76",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "প",
+   "name_en": "pa",
+   "word_bn": "পাখি",
+   "word_en": "bird",
+   "emoji": "🐦",
+   "sound": "প"
+  },
+  {
+   "id": "bn_cons_21",
+   "category": "bn_cons",
+   "char": "ফ",
+   "strokes": [
+    {
+     "d": "M18 22 L84 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M58 22 L58 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M56 30 L24 52 L58 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M58 34 Q78 30 78 46 Q76 58 58 56",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ফ",
+   "name_en": "pha",
+   "word_bn": "ফুল",
+   "word_en": "flower",
+   "emoji": "🌸",
+   "sound": "ফ"
+  },
+  {
+   "id": "bn_cons_22",
+   "category": "bn_cons",
+   "char": "ব",
+   "strokes": [
+    {
+     "d": "M20 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M62 28 L26 58 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ব",
+   "name_en": "ba",
+   "word_bn": "বই",
+   "word_en": "book",
+   "emoji": "📖",
+   "sound": "ব"
+  },
+  {
+   "id": "bn_cons_23",
+   "category": "bn_cons",
+   "char": "ভ",
+   "strokes": [
+    {
+     "d": "M20 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M30 40 L66 38 Q72 38 70 46 Q66 56 52 56",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M26 40 L26 56 Q26 75 50 75 Q76 75 75 56 L75 44 Q70 46 66 50",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "ভ",
+   "name_en": "bha",
+   "word_bn": "ভালুক",
+   "word_en": "bear",
+   "emoji": "🐻",
+   "sound": "ভ"
+  },
+  {
+   "id": "bn_cons_24",
+   "category": "bn_cons",
+   "char": "ম",
+   "strokes": [
+    {
+     "d": "M16 22 L76 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M48 30 Q26 28 26 40 Q26 48 44 46",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M30 48 Q18 62 30 70 Q46 76 66 72",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ম",
+   "name_en": "ma",
+   "word_bn": "মাছ",
+   "word_en": "fish",
+   "emoji": "🐟",
+   "sound": "ম"
+  },
+  {
+   "id": "bn_cons_25",
+   "category": "bn_cons",
+   "char": "য",
+   "strokes": [
+    {
+     "d": "M16 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M48 30 L28 30 L28 46 L50 46",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M28 52 L66 76",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "অন্তঃস্থ য",
+   "name_en": "ja (antastha)",
+   "word_bn": "যন্ত্র",
+   "word_en": "machine",
+   "emoji": "⚙️",
+   "sound": "য"
+  },
+  {
+   "id": "bn_cons_26",
+   "category": "bn_cons",
+   "char": "র",
+   "strokes": [
+    {
+     "d": "M22 22 L72 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M62 28 L26 55 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M35 67.8 A3.2 3.2 0 1 0 35 74.2 A3.2 3.2 0 1 0 35 67.8",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "র",
+   "name_en": "ra",
+   "word_bn": "রকেট",
+   "word_en": "rocket",
+   "emoji": "🚀",
+   "sound": "র"
+  },
+  {
+   "id": "bn_cons_27",
+   "category": "bn_cons",
+   "char": "ল",
+   "strokes": [
+    {
+     "d": "M18 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M72 22 L72 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M56 32 Q30 28 30 44 Q30 50 46 48",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    },
+    {
+     "d": "M30 52 Q28 68 46 66 Q58 64 58 54",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "ল",
+   "name_en": "la",
+   "word_bn": "লেবু",
+   "word_en": "lemon",
+   "emoji": "🍋",
+   "sound": "ল"
+  },
+  {
+   "id": "bn_cons_28",
+   "category": "bn_cons",
+   "char": "শ",
+   "strokes": [
+    {
+     "d": "M20 22 L86 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M70 12 L70 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M48 32 Q24 28 24 44 Q24 54 30 54",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    },
+    {
+     "d": "M48 32 Q60 36 56 46 Q54 54 46 54",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "তালব্য শ",
+   "name_en": "sha",
+   "word_bn": "শসা",
+   "word_en": "cucumber",
+   "emoji": "🥒",
+   "sound": "শ"
+  },
+  {
+   "id": "bn_cons_29",
+   "category": "bn_cons",
+   "char": "ষ",
+   "strokes": [
+    {
+     "d": "M18 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M30 24 L30 56",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M62 28 L30 56 L66 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "মূর্ধন্য ষ",
+   "name_en": "ṣa",
+   "word_bn": "ষাঁড়",
+   "word_en": "bull",
+   "emoji": "🐂",
+   "sound": "ষ"
+  },
+  {
+   "id": "bn_cons_30",
+   "category": "bn_cons",
+   "char": "স",
+   "strokes": [
+    {
+     "d": "M18 22 L80 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M72 22 L72 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M56 32 Q28 28 28 42 Q28 50 50 48",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M28 54 Q40 74 72 74",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "দন্ত্য স",
+   "name_en": "sa",
+   "word_bn": "সূর্য",
+   "word_en": "sun",
+   "emoji": "☀️",
+   "sound": "স"
+  },
+  {
+   "id": "bn_cons_31",
+   "category": "bn_cons",
+   "char": "হ",
+   "strokes": [
+    {
+     "d": "M26 22 L72 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M32 48 Q32 34 46 34 Q60 34 60 46 Q60 62 42 64 L32 65 L66 77",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "হ",
+   "name_en": "ha",
+   "word_bn": "হাতি",
+   "word_en": "elephant",
+   "emoji": "🐘",
+   "sound": "হ"
+  },
+  {
+   "id": "bn_cons_32",
+   "category": "bn_cons",
+   "char": "ড়",
+   "strokes": [
+    {
+     "d": "M20 22 L82 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M52 22 L52 50",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M28 42 L28 56 Q28 75 50 75 Q73 75 73 55 L73 44 Q68 46 63 50",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M52 82.8 A3.2 3.2 0 1 0 52 89.2 A3.2 3.2 0 1 0 52 82.8",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "ড-এ শূন্য ড়",
+   "name_en": "ṛa",
+   "word_bn": "গাড়ি",
+   "word_en": "car",
+   "emoji": "🚗",
+   "sound": "ড়"
+  },
+  {
+   "id": "bn_cons_33",
+   "category": "bn_cons",
+   "char": "ঢ়",
+   "strokes": [
+    {
+     "d": "M22 22 L78 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M36 22 L36 58 Q36 75 54 75 Q72 75 72 58 L72 44 Q70 40 62 44 Q58 48 62 52",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M48 82.8 A3.2 3.2 0 1 0 48 89.2 A3.2 3.2 0 1 0 48 82.8",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "ঢ-এ শূন্য ঢ়",
+   "name_en": "ṛha",
+   "word_bn": "আষাঢ়",
+   "word_en": "Ashadh (month)",
+   "emoji": "🌧️",
+   "sound": "ঢ়"
+  },
+  {
+   "id": "bn_cons_34",
+   "category": "bn_cons",
+   "char": "য়",
+   "strokes": [
+    {
+     "d": "M16 22 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M66 22 L66 75",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M48 30 L28 30 L28 46 L50 46",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M28 52 L66 76",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    },
+    {
+     "d": "M38 80.8 A3.2 3.2 0 1 0 38 87.2 A3.2 3.2 0 1 0 38 80.8",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "অন্তঃস্থ য়",
+   "name_en": "ya",
+   "word_bn": "ময়ূর",
+   "word_en": "peacock",
+   "emoji": "🦚",
+   "sound": "য়"
+  },
+  {
+   "id": "bn_cons_35",
+   "category": "bn_cons",
+   "char": "ৎ",
+   "strokes": [
+    {
+     "d": "M64 32 Q50 24 40 34 Q38 48 56 50 Q66 54 62 66 L62 76",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "খণ্ড ত",
+   "name_en": "khanda ta",
+   "word_bn": "উৎসব",
+   "word_en": "festival",
+   "emoji": "🎉",
+   "sound": "ৎ"
+  },
+  {
+   "id": "bn_cons_36",
+   "category": "bn_cons",
+   "char": "ং",
+   "strokes": [
+    {
+     "d": "M50 26 A8 8 0 1 0 50 42 A8 8 0 1 0 50 26",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    },
+    {
+     "d": "M38 52 L58 76",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "অনুস্বার",
+   "name_en": "anusvara (ng)",
+   "word_bn": "রং",
+   "word_en": "colour",
+   "emoji": "🎨",
+   "sound": "ং"
+  },
+  {
+   "id": "bn_cons_37",
+   "category": "bn_cons",
+   "char": "ঃ",
+   "strokes": [
+    {
+     "d": "M50 26 A8 8 0 1 0 50 42 A8 8 0 1 0 50 26",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    },
+    {
+     "d": "M50 56 A8 8 0 1 0 50 72 A8 8 0 1 0 50 56",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "বিসর্গ",
+   "name_en": "visarga (h)",
+   "word_bn": "দুঃখ",
+   "word_en": "sorrow",
+   "emoji": "😢",
+   "sound": "ঃ"
+  },
+  {
+   "id": "bn_cons_38",
+   "category": "bn_cons",
+   "char": "ঁ",
+   "strokes": [
+    {
+     "d": "M32 46 Q50 72 68 46",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M50 28.5 A3.5 3.5 0 1 0 50 35.5 A3.5 3.5 0 1 0 50 28.5",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "চন্দ্রবিন্দু",
+   "name_en": "chandrabindu",
+   "word_bn": "চাঁদ",
+   "word_en": "moon",
+   "emoji": "🌙",
+   "sound": "ঁ"
+  },
+  {
+   "id": "bn_digit_00",
+   "category": "bn_digit",
+   "char": "০",
+   "strokes": [
+    {
+     "d": "M50 36 A16 16 0 1 0 50 68 A16 16 0 1 0 50 36",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "শূন্য",
+   "name_en": "zero (0)",
+   "word_bn": "শূন্য",
+   "word_en": "zero",
+   "emoji": "0️⃣",
+   "sound": "শূন্য"
+  },
+  {
+   "id": "bn_digit_01",
+   "category": "bn_digit",
+   "char": "১",
+   "strokes": [
+    {
+     "d": "M46 28 Q32 44 36 60 Q42 76 60 70 Q68 58 54 52",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "এক",
+   "name_en": "one (1)",
+   "word_bn": "এক",
+   "word_en": "one",
+   "emoji": "1️⃣",
+   "sound": "এক"
+  },
+  {
+   "id": "bn_digit_02",
+   "category": "bn_digit",
+   "char": "২",
+   "strokes": [
+    {
+     "d": "M38 30 Q62 26 62 42 Q62 54 38 54 L66 76",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "দুই",
+   "name_en": "two (2)",
+   "word_bn": "দুই",
+   "word_en": "two",
+   "emoji": "2️⃣",
+   "sound": "দুই"
+  },
+  {
+   "id": "bn_digit_03",
+   "category": "bn_digit",
+   "char": "৩",
+   "strokes": [
+    {
+     "d": "M34 32 L32 50 Q32 76 52 76 Q68 76 68 56 Q68 40 54 42 Q46 46 50 54",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "তিন",
+   "name_en": "three (3)",
+   "word_bn": "তিন",
+   "word_en": "three",
+   "emoji": "3️⃣",
+   "sound": "তিন"
+  },
+  {
+   "id": "bn_digit_04",
+   "category": "bn_digit",
+   "char": "৪",
+   "strokes": [
+    {
+     "d": "M50 52 Q32 48 32 36 Q34 24 50 24 Q66 24 66 36 Q66 48 50 52 Q30 56 30 68 Q30 78 50 78 Q70 78 70 66 Q70 56 50 52",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "চার",
+   "name_en": "four (4)",
+   "word_bn": "চার",
+   "word_en": "four",
+   "emoji": "4️⃣",
+   "sound": "চার"
+  },
+  {
+   "id": "bn_digit_05",
+   "category": "bn_digit",
+   "char": "৫",
+   "strokes": [
+    {
+     "d": "M66 28 Q40 30 36 52 Q36 76 66 76 L70 76",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M64 40 Q50 44 54 54 Q58 60 70 58",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "পাঁচ",
+   "name_en": "five (5)",
+   "word_bn": "পাঁচ",
+   "word_en": "five",
+   "emoji": "5️⃣",
+   "sound": "পাঁচ"
+  },
+  {
+   "id": "bn_digit_06",
+   "category": "bn_digit",
+   "char": "৬",
+   "strokes": [
+    {
+     "d": "M32 28 L46 30 Q58 36 50 46 Q28 44 28 62 Q30 78 52 78 Q72 78 70 58 Q66 48 52 46",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ছয়",
+   "name_en": "six (6)",
+   "word_bn": "ছয়",
+   "word_en": "six",
+   "emoji": "6️⃣",
+   "sound": "ছয়"
+  },
+  {
+   "id": "bn_digit_07",
+   "category": "bn_digit",
+   "char": "৭",
+   "strokes": [
+    {
+     "d": "M50 30 Q40 24 32 32 Q24 44 40 46 Q52 46 52 34 L52 66 Q52 76 64 76 L70 76",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "সাত",
+   "name_en": "seven (7)",
+   "word_bn": "সাত",
+   "word_en": "seven",
+   "emoji": "7️⃣",
+   "sound": "সাত"
+  },
+  {
+   "id": "bn_digit_08",
+   "category": "bn_digit",
+   "char": "৮",
+   "strokes": [
+    {
+     "d": "M30 28 L44 28 Q54 30 56 44 L58 46 Q76 42 78 36",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    },
+    {
+     "d": "M58 46 Q30 46 30 62 Q30 78 50 78 Q68 78 68 60 Q66 46 58 46",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "আট",
+   "name_en": "eight (8)",
+   "word_bn": "আট",
+   "word_en": "eight",
+   "emoji": "8️⃣",
+   "sound": "আট"
+  },
+  {
+   "id": "bn_digit_09",
+   "category": "bn_digit",
+   "char": "৯",
+   "strokes": [
+    {
+     "d": "M30 28 Q52 24 56 40 Q56 50 44 52 Q28 52 28 66 Q30 78 46 78 Q66 78 68 58 L68 76",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "নয়",
+   "name_en": "nine (9)",
+   "word_bn": "নয়",
+   "word_en": "nine",
+   "emoji": "9️⃣",
+   "sound": "নয়"
+  },
+  {
+   "id": "en_upper_00",
+   "category": "en_upper",
+   "char": "A",
+   "strokes": [
+    {
+     "d": "M30 78 L50 22 L70 78",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M38 60 L62 60",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের A",
+   "name_en": "Capital A",
+   "word_bn": "Apple",
+   "word_en": "Apple",
+   "emoji": "🍎",
+   "sound": "A"
+  },
+  {
+   "id": "en_upper_01",
+   "category": "en_upper",
+   "char": "B",
+   "strokes": [
+    {
+     "d": "M34 22 L34 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M34 22 L54 22 Q68 22 68 36 Q68 50 54 50 L34 50",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M54 50 Q70 50 70 64 Q70 78 54 78 L34 78",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "বড় হাতের B",
+   "name_en": "Capital B",
+   "word_bn": "Ball",
+   "word_en": "Ball",
+   "emoji": "⚽",
+   "sound": "B"
+  },
+  {
+   "id": "en_upper_02",
+   "category": "en_upper",
+   "char": "C",
+   "strokes": [
+    {
+     "d": "M70 32 Q60 20 46 22 Q28 24 28 50 Q28 76 46 78 Q60 80 70 68",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের C",
+   "name_en": "Capital C",
+   "word_bn": "Cat",
+   "word_en": "Cat",
+   "emoji": "🐱",
+   "sound": "C"
+  },
+  {
+   "id": "en_upper_03",
+   "category": "en_upper",
+   "char": "D",
+   "strokes": [
+    {
+     "d": "M34 22 L34 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M34 22 L48 22 Q72 22 72 50 Q72 78 48 78 L34 78",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের D",
+   "name_en": "Capital D",
+   "word_bn": "Dog",
+   "word_en": "Dog",
+   "emoji": "🐶",
+   "sound": "D"
+  },
+  {
+   "id": "en_upper_04",
+   "category": "en_upper",
+   "char": "E",
+   "strokes": [
+    {
+     "d": "M68 22 L34 22 L34 78 L68 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M34 50 L60 50",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের E",
+   "name_en": "Capital E",
+   "word_bn": "Elephant",
+   "word_en": "Elephant",
+   "emoji": "🐘",
+   "sound": "E"
+  },
+  {
+   "id": "en_upper_05",
+   "category": "en_upper",
+   "char": "F",
+   "strokes": [
+    {
+     "d": "M68 22 L34 22 L34 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M34 50 L60 50",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের F",
+   "name_en": "Capital F",
+   "word_bn": "Fish",
+   "word_en": "Fish",
+   "emoji": "🐟",
+   "sound": "F"
+  },
+  {
+   "id": "en_upper_06",
+   "category": "en_upper",
+   "char": "G",
+   "strokes": [
+    {
+     "d": "M70 32 Q60 20 46 22 Q28 24 28 50 Q28 76 46 78 Q66 80 70 62 L70 54 L52 54",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "বড় হাতের G",
+   "name_en": "Capital G",
+   "word_bn": "Goat",
+   "word_en": "Goat",
+   "emoji": "🐐",
+   "sound": "G"
+  },
+  {
+   "id": "en_upper_07",
+   "category": "en_upper",
+   "char": "H",
+   "strokes": [
+    {
+     "d": "M32 22 L32 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M68 22 L68 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M32 50 L68 50",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের H",
+   "name_en": "Capital H",
+   "word_bn": "Hat",
+   "word_en": "Hat",
+   "emoji": "🎩",
+   "sound": "H"
+  },
+  {
+   "id": "en_upper_08",
+   "category": "en_upper",
+   "char": "I",
+   "strokes": [
+    {
+     "d": "M38 22 L62 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M50 22 L50 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M38 78 L62 78",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের I",
+   "name_en": "Capital I",
+   "word_bn": "Ice cream",
+   "word_en": "Ice cream",
+   "emoji": "🍦",
+   "sound": "I"
+  },
+  {
+   "id": "en_upper_09",
+   "category": "en_upper",
+   "char": "J",
+   "strokes": [
+    {
+     "d": "M62 22 L62 64 Q62 78 50 78 Q36 78 36 66",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের J",
+   "name_en": "Capital J",
+   "word_bn": "Jug",
+   "word_en": "Jug",
+   "emoji": "🏺",
+   "sound": "J"
+  },
+  {
+   "id": "en_upper_10",
+   "category": "en_upper",
+   "char": "K",
+   "strokes": [
+    {
+     "d": "M34 22 L34 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M66 22 L34 54",
+     "hint_bn": "বাঁকা করে নিচে বামে আঁক",
+     "hint_en": "Draw slant down-left"
+    },
+    {
+     "d": "M44 46 L68 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "বড় হাতের K",
+   "name_en": "Capital K",
+   "word_bn": "Kite",
+   "word_en": "Kite",
+   "emoji": "🪁",
+   "sound": "K"
+  },
+  {
+   "id": "en_upper_11",
+   "category": "en_upper",
+   "char": "L",
+   "strokes": [
+    {
+     "d": "M34 22 L34 78 L68 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের L",
+   "name_en": "Capital L",
+   "word_bn": "Lion",
+   "word_en": "Lion",
+   "emoji": "🦁",
+   "sound": "L"
+  },
+  {
+   "id": "en_upper_12",
+   "category": "en_upper",
+   "char": "M",
+   "strokes": [
+    {
+     "d": "M30 78 L30 22 L50 56 L70 22 L70 78",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের M",
+   "name_en": "Capital M",
+   "word_bn": "Mango",
+   "word_en": "Mango",
+   "emoji": "🥭",
+   "sound": "M"
+  },
+  {
+   "id": "en_upper_13",
+   "category": "en_upper",
+   "char": "N",
+   "strokes": [
+    {
+     "d": "M32 78 L32 22 L68 78 L68 22",
+     "hint_bn": "বাঁকা করে উপরে ডানে আঁক",
+     "hint_en": "Draw slant up-right"
+    }
+   ],
+   "name_bn": "বড় হাতের N",
+   "name_en": "Capital N",
+   "word_bn": "Nest",
+   "word_en": "Nest",
+   "emoji": "🪺",
+   "sound": "N"
+  },
+  {
+   "id": "en_upper_14",
+   "category": "en_upper",
+   "char": "O",
+   "strokes": [
+    {
+     "d": "M50 22 Q28 22 28 50 Q28 78 50 78 Q72 78 72 50 Q72 22 50 22",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "বড় হাতের O",
+   "name_en": "Capital O",
+   "word_bn": "Orange",
+   "word_en": "Orange",
+   "emoji": "🍊",
+   "sound": "O"
+  },
+  {
+   "id": "en_upper_15",
+   "category": "en_upper",
+   "char": "P",
+   "strokes": [
+    {
+     "d": "M34 78 L34 22",
+     "hint_bn": "নিচ থেকে উপরে আঁক",
+     "hint_en": "Draw bottom to top"
+    },
+    {
+     "d": "M34 22 L54 22 Q70 22 70 38 Q70 54 54 54 L34 54",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের P",
+   "name_en": "Capital P",
+   "word_bn": "Pen",
+   "word_en": "Pen",
+   "emoji": "🖊️",
+   "sound": "P"
+  },
+  {
+   "id": "en_upper_16",
+   "category": "en_upper",
+   "char": "Q",
+   "strokes": [
+    {
+     "d": "M50 22 Q28 22 28 50 Q28 78 50 78 Q72 78 72 50 Q72 22 50 22",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    },
+    {
+     "d": "M58 64 L72 80",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "বড় হাতের Q",
+   "name_en": "Capital Q",
+   "word_bn": "Queen",
+   "word_en": "Queen",
+   "emoji": "👑",
+   "sound": "Q"
+  },
+  {
+   "id": "en_upper_17",
+   "category": "en_upper",
+   "char": "R",
+   "strokes": [
+    {
+     "d": "M34 78 L34 22",
+     "hint_bn": "নিচ থেকে উপরে আঁক",
+     "hint_en": "Draw bottom to top"
+    },
+    {
+     "d": "M34 22 L54 22 Q70 22 70 38 Q70 54 54 54 L34 54",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M52 54 L70 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "বড় হাতের R",
+   "name_en": "Capital R",
+   "word_bn": "Rabbit",
+   "word_en": "Rabbit",
+   "emoji": "🐰",
+   "sound": "R"
+  },
+  {
+   "id": "en_upper_18",
+   "category": "en_upper",
+   "char": "S",
+   "strokes": [
+    {
+     "d": "M68 30 Q60 20 48 22 Q32 24 32 36 Q32 48 50 50 Q68 52 68 66 Q68 80 48 78 Q36 78 30 70",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "বড় হাতের S",
+   "name_en": "Capital S",
+   "word_bn": "Sun",
+   "word_en": "Sun",
+   "emoji": "☀️",
+   "sound": "S"
+  },
+  {
+   "id": "en_upper_19",
+   "category": "en_upper",
+   "char": "T",
+   "strokes": [
+    {
+     "d": "M30 22 L70 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M50 22 L50 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের T",
+   "name_en": "Capital T",
+   "word_bn": "Tiger",
+   "word_en": "Tiger",
+   "emoji": "🐯",
+   "sound": "T"
+  },
+  {
+   "id": "en_upper_20",
+   "category": "en_upper",
+   "char": "U",
+   "strokes": [
+    {
+     "d": "M32 22 L32 60 Q32 78 50 78 Q68 78 68 60 L68 22",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের U",
+   "name_en": "Capital U",
+   "word_bn": "Umbrella",
+   "word_en": "Umbrella",
+   "emoji": "☂️",
+   "sound": "U"
+  },
+  {
+   "id": "en_upper_21",
+   "category": "en_upper",
+   "char": "V",
+   "strokes": [
+    {
+     "d": "M30 22 L50 78 L70 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের V",
+   "name_en": "Capital V",
+   "word_bn": "Van",
+   "word_en": "Van",
+   "emoji": "🚐",
+   "sound": "V"
+  },
+  {
+   "id": "en_upper_22",
+   "category": "en_upper",
+   "char": "W",
+   "strokes": [
+    {
+     "d": "M26 22 L38 78 L50 36 L62 78 L74 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "বড় হাতের W",
+   "name_en": "Capital W",
+   "word_bn": "Watch",
+   "word_en": "Watch",
+   "emoji": "⌚",
+   "sound": "W"
+  },
+  {
+   "id": "en_upper_23",
+   "category": "en_upper",
+   "char": "X",
+   "strokes": [
+    {
+     "d": "M32 22 L68 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    },
+    {
+     "d": "M68 22 L32 78",
+     "hint_bn": "বাঁকা করে নিচে বামে আঁক",
+     "hint_en": "Draw slant down-left"
+    }
+   ],
+   "name_bn": "বড় হাতের X",
+   "name_en": "Capital X",
+   "word_bn": "X-ray",
+   "word_en": "X-ray",
+   "emoji": "🩻",
+   "sound": "X"
+  },
+  {
+   "id": "en_upper_24",
+   "category": "en_upper",
+   "char": "Y",
+   "strokes": [
+    {
+     "d": "M30 22 L50 50 L70 22",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    },
+    {
+     "d": "M50 50 L50 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "বড় হাতের Y",
+   "name_en": "Capital Y",
+   "word_bn": "Yo-yo",
+   "word_en": "Yo-yo",
+   "emoji": "🪀",
+   "sound": "Y"
+  },
+  {
+   "id": "en_upper_25",
+   "category": "en_upper",
+   "char": "Z",
+   "strokes": [
+    {
+     "d": "M32 22 L68 22 L32 78 L68 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "বড় হাতের Z",
+   "name_en": "Capital Z",
+   "word_bn": "Zebra",
+   "word_en": "Zebra",
+   "emoji": "🦓",
+   "sound": "Z"
+  },
+  {
+   "id": "en_lower_00",
+   "category": "en_lower",
+   "char": "a",
+   "strokes": [
+    {
+     "d": "M64 52 Q60 44 48 44 Q32 44 32 61 Q32 78 48 78 Q62 78 64 66",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M64 44 L64 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের a",
+   "name_en": "Small a",
+   "word_bn": "apple",
+   "word_en": "Apple",
+   "emoji": "🍎",
+   "sound": "a"
+  },
+  {
+   "id": "en_lower_01",
+   "category": "en_lower",
+   "char": "b",
+   "strokes": [
+    {
+     "d": "M36 22 L36 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M36 52 Q40 44 50 44 Q66 44 66 61 Q66 78 50 78 Q40 78 36 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের b",
+   "name_en": "Small b",
+   "word_bn": "ball",
+   "word_en": "Ball",
+   "emoji": "⚽",
+   "sound": "b"
+  },
+  {
+   "id": "en_lower_02",
+   "category": "en_lower",
+   "char": "c",
+   "strokes": [
+    {
+     "d": "M66 52 Q60 44 50 44 Q34 44 34 61 Q34 78 50 78 Q60 78 66 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের c",
+   "name_en": "Small c",
+   "word_bn": "cat",
+   "word_en": "Cat",
+   "emoji": "🐱",
+   "sound": "c"
+  },
+  {
+   "id": "en_lower_03",
+   "category": "en_lower",
+   "char": "d",
+   "strokes": [
+    {
+     "d": "M64 22 L64 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M64 52 Q60 44 50 44 Q34 44 34 61 Q34 78 50 78 Q60 78 64 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের d",
+   "name_en": "Small d",
+   "word_bn": "dog",
+   "word_en": "Dog",
+   "emoji": "🐶",
+   "sound": "d"
+  },
+  {
+   "id": "en_lower_04",
+   "category": "en_lower",
+   "char": "e",
+   "strokes": [
+    {
+     "d": "M34 60 L66 60 Q66 44 50 44 Q34 44 34 61 Q34 78 50 78 Q60 78 66 70",
+     "hint_bn": "বাম থেকে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve left to right"
+    }
+   ],
+   "name_bn": "ছোট হাতের e",
+   "name_en": "Small e",
+   "word_bn": "elephant",
+   "word_en": "Elephant",
+   "emoji": "🐘",
+   "sound": "e"
+  },
+  {
+   "id": "en_lower_05",
+   "category": "en_lower",
+   "char": "f",
+   "strokes": [
+    {
+     "d": "M62 26 Q50 20 48 34 L48 78",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M36 46 L60 46",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ছোট হাতের f",
+   "name_en": "Small f",
+   "word_bn": "fish",
+   "word_en": "Fish",
+   "emoji": "🐟",
+   "sound": "f"
+  },
+  {
+   "id": "en_lower_06",
+   "category": "en_lower",
+   "char": "g",
+   "strokes": [
+    {
+     "d": "M64 52 Q60 44 50 44 Q34 44 34 61 Q34 78 50 78 Q60 78 64 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M64 44 L64 84 Q64 96 50 96 Q40 96 36 90",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের g",
+   "name_en": "Small g",
+   "word_bn": "goat",
+   "word_en": "Goat",
+   "emoji": "🐐",
+   "sound": "g"
+  },
+  {
+   "id": "en_lower_07",
+   "category": "en_lower",
+   "char": "h",
+   "strokes": [
+    {
+     "d": "M36 22 L36 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M36 52 Q42 44 52 44 Q64 44 64 56 L64 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ছোট হাতের h",
+   "name_en": "Small h",
+   "word_bn": "hat",
+   "word_en": "Hat",
+   "emoji": "🎩",
+   "sound": "h"
+  },
+  {
+   "id": "en_lower_08",
+   "category": "en_lower",
+   "char": "i",
+   "strokes": [
+    {
+     "d": "M50 44 L50 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M50 27.4 A2.6 2.6 0 1 0 50 32.6 A2.6 2.6 0 1 0 50 27.4",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "ছোট হাতের i",
+   "name_en": "Small i",
+   "word_bn": "ice cream",
+   "word_en": "Ice cream",
+   "emoji": "🍦",
+   "sound": "i"
+  },
+  {
+   "id": "en_lower_09",
+   "category": "en_lower",
+   "char": "j",
+   "strokes": [
+    {
+     "d": "M56 44 L56 84 Q56 96 44 96 Q36 96 34 90",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M56 27.4 A2.6 2.6 0 1 0 56 32.6 A2.6 2.6 0 1 0 56 27.4",
+     "hint_bn": "বাঁকা করে উপরে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant up-left"
+    }
+   ],
+   "name_bn": "ছোট হাতের j",
+   "name_en": "Small j",
+   "word_bn": "jug",
+   "word_en": "Jug",
+   "emoji": "🏺",
+   "sound": "j"
+  },
+  {
+   "id": "en_lower_10",
+   "category": "en_lower",
+   "char": "k",
+   "strokes": [
+    {
+     "d": "M36 22 L36 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M60 44 L36 64",
+     "hint_bn": "বাঁকা করে নিচে বামে আঁক",
+     "hint_en": "Draw slant down-left"
+    },
+    {
+     "d": "M44 58 L62 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "ছোট হাতের k",
+   "name_en": "Small k",
+   "word_bn": "kite",
+   "word_en": "Kite",
+   "emoji": "🪁",
+   "sound": "k"
+  },
+  {
+   "id": "en_lower_11",
+   "category": "en_lower",
+   "char": "l",
+   "strokes": [
+    {
+     "d": "M50 22 L50 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের l",
+   "name_en": "Small l",
+   "word_bn": "lion",
+   "word_en": "Lion",
+   "emoji": "🦁",
+   "sound": "l"
+  },
+  {
+   "id": "en_lower_12",
+   "category": "en_lower",
+   "char": "m",
+   "strokes": [
+    {
+     "d": "M30 78 L30 44",
+     "hint_bn": "নিচ থেকে উপরে আঁক",
+     "hint_en": "Draw bottom to top"
+    },
+    {
+     "d": "M30 52 Q34 44 42 44 Q50 44 50 54 L50 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M50 52 Q54 44 62 44 Q70 44 70 54 L70 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ছোট হাতের m",
+   "name_en": "Small m",
+   "word_bn": "mango",
+   "word_en": "Mango",
+   "emoji": "🥭",
+   "sound": "m"
+  },
+  {
+   "id": "en_lower_13",
+   "category": "en_lower",
+   "char": "n",
+   "strokes": [
+    {
+     "d": "M36 78 L36 44",
+     "hint_bn": "নিচ থেকে উপরে আঁক",
+     "hint_en": "Draw bottom to top"
+    },
+    {
+     "d": "M36 52 Q42 44 52 44 Q64 44 64 56 L64 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "ছোট হাতের n",
+   "name_en": "Small n",
+   "word_bn": "nest",
+   "word_en": "Nest",
+   "emoji": "🪺",
+   "sound": "n"
+  },
+  {
+   "id": "en_lower_14",
+   "category": "en_lower",
+   "char": "o",
+   "strokes": [
+    {
+     "d": "M50 44 Q34 44 34 61 Q34 78 50 78 Q66 78 66 61 Q66 44 50 44",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "ছোট হাতের o",
+   "name_en": "Small o",
+   "word_bn": "orange",
+   "word_en": "Orange",
+   "emoji": "🍊",
+   "sound": "o"
+  },
+  {
+   "id": "en_lower_15",
+   "category": "en_lower",
+   "char": "p",
+   "strokes": [
+    {
+     "d": "M36 44 L36 96",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M36 52 Q40 44 50 44 Q66 44 66 61 Q66 78 50 78 Q40 78 36 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের p",
+   "name_en": "Small p",
+   "word_bn": "pen",
+   "word_en": "Pen",
+   "emoji": "🖊️",
+   "sound": "p"
+  },
+  {
+   "id": "en_lower_16",
+   "category": "en_lower",
+   "char": "q",
+   "strokes": [
+    {
+     "d": "M64 52 Q60 44 50 44 Q34 44 34 61 Q34 78 50 78 Q60 78 64 70",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    },
+    {
+     "d": "M64 44 L64 96",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের q",
+   "name_en": "Small q",
+   "word_bn": "queen",
+   "word_en": "Queen",
+   "emoji": "👑",
+   "sound": "q"
+  },
+  {
+   "id": "en_lower_17",
+   "category": "en_lower",
+   "char": "r",
+   "strokes": [
+    {
+     "d": "M40 78 L40 44",
+     "hint_bn": "নিচ থেকে উপরে আঁক",
+     "hint_en": "Draw bottom to top"
+    },
+    {
+     "d": "M40 54 Q46 44 60 46",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ছোট হাতের r",
+   "name_en": "Small r",
+   "word_bn": "rabbit",
+   "word_en": "Rabbit",
+   "emoji": "🐰",
+   "sound": "r"
+  },
+  {
+   "id": "en_lower_18",
+   "category": "en_lower",
+   "char": "s",
+   "strokes": [
+    {
+     "d": "M62 50 Q58 44 50 44 Q38 44 38 52 Q38 60 50 61 Q62 62 62 70 Q62 78 50 78 Q40 78 36 72",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "ছোট হাতের s",
+   "name_en": "Small s",
+   "word_bn": "sun",
+   "word_en": "Sun",
+   "emoji": "☀️",
+   "sound": "s"
+  },
+  {
+   "id": "en_lower_19",
+   "category": "en_lower",
+   "char": "t",
+   "strokes": [
+    {
+     "d": "M46 28 L46 70 Q46 78 54 78 L60 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M36 46 L58 46",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ছোট হাতের t",
+   "name_en": "Small t",
+   "word_bn": "tiger",
+   "word_en": "Tiger",
+   "emoji": "🐯",
+   "sound": "t"
+  },
+  {
+   "id": "en_lower_20",
+   "category": "en_lower",
+   "char": "u",
+   "strokes": [
+    {
+     "d": "M36 44 L36 68 Q36 78 48 78 Q60 78 64 68",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    },
+    {
+     "d": "M64 44 L64 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের u",
+   "name_en": "Small u",
+   "word_bn": "umbrella",
+   "word_en": "Umbrella",
+   "emoji": "☂️",
+   "sound": "u"
+  },
+  {
+   "id": "en_lower_21",
+   "category": "en_lower",
+   "char": "v",
+   "strokes": [
+    {
+     "d": "M34 44 L50 78 L66 44",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ছোট হাতের v",
+   "name_en": "Small v",
+   "word_bn": "van",
+   "word_en": "Van",
+   "emoji": "🚐",
+   "sound": "v"
+  },
+  {
+   "id": "en_lower_22",
+   "category": "en_lower",
+   "char": "w",
+   "strokes": [
+    {
+     "d": "M28 44 L38 78 L50 52 L62 78 L72 44",
+     "hint_bn": "বাম থেকে ডানে আঁক",
+     "hint_en": "Draw left to right"
+    }
+   ],
+   "name_bn": "ছোট হাতের w",
+   "name_en": "Small w",
+   "word_bn": "watch",
+   "word_en": "Watch",
+   "emoji": "⌚",
+   "sound": "w"
+  },
+  {
+   "id": "en_lower_23",
+   "category": "en_lower",
+   "char": "x",
+   "strokes": [
+    {
+     "d": "M36 44 L64 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    },
+    {
+     "d": "M64 44 L36 78",
+     "hint_bn": "বাঁকা করে নিচে বামে আঁক",
+     "hint_en": "Draw slant down-left"
+    }
+   ],
+   "name_bn": "ছোট হাতের x",
+   "name_en": "Small x",
+   "word_bn": "x-ray",
+   "word_en": "X-ray",
+   "emoji": "🩻",
+   "sound": "x"
+  },
+  {
+   "id": "en_lower_24",
+   "category": "en_lower",
+   "char": "y",
+   "strokes": [
+    {
+     "d": "M36 44 L50 76",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M66 44 L48 88 Q44 96 36 94",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "ছোট হাতের y",
+   "name_en": "Small y",
+   "word_bn": "yo-yo",
+   "word_en": "Yo-yo",
+   "emoji": "🪀",
+   "sound": "y"
+  },
+  {
+   "id": "en_lower_25",
+   "category": "en_lower",
+   "char": "z",
+   "strokes": [
+    {
+     "d": "M36 44 L64 44 L36 78 L64 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে আঁক",
+     "hint_en": "Draw slant down-right"
+    }
+   ],
+   "name_bn": "ছোট হাতের z",
+   "name_en": "Small z",
+   "word_bn": "zebra",
+   "word_en": "Zebra",
+   "emoji": "🦓",
+   "sound": "z"
+  },
+  {
+   "id": "en_digit_00",
+   "category": "en_digit",
+   "char": "0",
+   "strokes": [
+    {
+     "d": "M50 22 Q32 22 32 50 Q32 78 50 78 Q68 78 68 50 Q68 22 50 22",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "শূন্য",
+   "name_en": "zero (0)",
+   "word_bn": "শূন্য",
+   "word_en": "zero",
+   "emoji": "0️⃣",
+   "sound": "zero"
+  },
+  {
+   "id": "en_digit_01",
+   "category": "en_digit",
+   "char": "1",
+   "strokes": [
+    {
+     "d": "M40 32 L52 22 L52 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "এক",
+   "name_en": "one (1)",
+   "word_bn": "এক",
+   "word_en": "one",
+   "emoji": "1️⃣",
+   "sound": "one"
+  },
+  {
+   "id": "en_digit_02",
+   "category": "en_digit",
+   "char": "2",
+   "strokes": [
+    {
+     "d": "M34 34 Q36 20 50 22 Q66 24 64 38 Q62 50 34 78 L68 78",
+     "hint_bn": "বাঁকা করে নিচে ডানে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-right"
+    }
+   ],
+   "name_bn": "দুই",
+   "name_en": "two (2)",
+   "word_bn": "দুই",
+   "word_en": "two",
+   "emoji": "2️⃣",
+   "sound": "two"
+  },
+  {
+   "id": "en_digit_03",
+   "category": "en_digit",
+   "char": "3",
+   "strokes": [
+    {
+     "d": "M34 28 Q46 18 60 24 Q70 32 58 44 L50 46 L58 48 Q72 54 66 68 Q58 82 36 72",
+     "hint_bn": "উপর থেকে নিচে ঘুরিয়ে আঁক",
+     "hint_en": "Curve top to bottom"
+    }
+   ],
+   "name_bn": "তিন",
+   "name_en": "three (3)",
+   "word_bn": "তিন",
+   "word_en": "three",
+   "emoji": "3️⃣",
+   "sound": "three"
+  },
+  {
+   "id": "en_digit_04",
+   "category": "en_digit",
+   "char": "4",
+   "strokes": [
+    {
+     "d": "M58 22 L30 60 L70 60",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    },
+    {
+     "d": "M58 22 L58 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "চার",
+   "name_en": "four (4)",
+   "word_bn": "চার",
+   "word_en": "four",
+   "emoji": "4️⃣",
+   "sound": "four"
+  },
+  {
+   "id": "en_digit_05",
+   "category": "en_digit",
+   "char": "5",
+   "strokes": [
+    {
+     "d": "M66 22 L36 22 L34 48 Q50 40 62 48 Q72 60 60 74 Q48 82 34 70",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "পাঁচ",
+   "name_en": "five (5)",
+   "word_bn": "পাঁচ",
+   "word_en": "five",
+   "emoji": "5️⃣",
+   "sound": "five"
+  },
+  {
+   "id": "en_digit_06",
+   "category": "en_digit",
+   "char": "6",
+   "strokes": [
+    {
+     "d": "M62 24 Q40 34 36 58 Q36 78 50 78 Q66 78 66 62 Q66 48 50 48 Q38 50 36 60",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "ছয়",
+   "name_en": "six (6)",
+   "word_bn": "ছয়",
+   "word_en": "six",
+   "emoji": "6️⃣",
+   "sound": "six"
+  },
+  {
+   "id": "en_digit_07",
+   "category": "en_digit",
+   "char": "7",
+   "strokes": [
+    {
+     "d": "M32 22 L68 22 L46 78",
+     "hint_bn": "উপর থেকে নিচে আঁক",
+     "hint_en": "Draw top to bottom"
+    }
+   ],
+   "name_bn": "সাত",
+   "name_en": "seven (7)",
+   "word_bn": "সাত",
+   "word_en": "seven",
+   "emoji": "7️⃣",
+   "sound": "seven"
+  },
+  {
+   "id": "en_digit_08",
+   "category": "en_digit",
+   "char": "8",
+   "strokes": [
+    {
+     "d": "M50 48 Q34 44 34 34 Q36 22 50 22 Q64 22 66 34 Q66 44 50 48 Q32 52 32 64 Q32 78 50 78 Q68 78 68 64 Q68 52 50 48",
+     "hint_bn": "গোল করে ঘুরিয়ে আঁক",
+     "hint_en": "Go around in a circle"
+    }
+   ],
+   "name_bn": "আট",
+   "name_en": "eight (8)",
+   "word_bn": "আট",
+   "word_en": "eight",
+   "emoji": "8️⃣",
+   "sound": "eight"
+  },
+  {
+   "id": "en_digit_09",
+   "category": "en_digit",
+   "char": "9",
+   "strokes": [
+    {
+     "d": "M64 42 Q62 22 48 22 Q34 22 34 36 Q34 50 48 50 Q62 50 64 42 L64 56 Q62 78 36 76",
+     "hint_bn": "বাঁকা করে নিচে বামে ঘুরিয়ে আঁক",
+     "hint_en": "Curve slant down-left"
+    }
+   ],
+   "name_bn": "নয়",
+   "name_en": "nine (9)",
+   "word_bn": "নয়",
+   "word_en": "nine",
+   "emoji": "9️⃣",
+   "sound": "nine"
+  }
+ ]
+}
