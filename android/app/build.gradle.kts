@@ -1,7 +1,23 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
+    // START: FlutterFire Configuration
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
+    // END: FlutterFire Configuration
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+}
+
+// android/key.properties (git-ignored) holds storeFile, storePassword, keyAlias, keyPassword.
+// Without it (e.g. CI) every build falls back to the debug key.
+val keystoreProperties = Properties()
+val keystorePropertiesFile = rootProject.file("key.properties")
+val hasReleaseKeystore = keystorePropertiesFile.exists()
+if (hasReleaseKeystore) {
+    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
 }
 
 android {
@@ -15,10 +31,7 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.haterlekha.hater_lekha"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         // Uses the version code from pubspec.yaml. When using split APKs, 1000 * ABI_VERSION
@@ -29,11 +42,48 @@ android {
         versionName = flutter.versionName
     }
 
+    // AGP 9 disables resValue by default; the flavors use it for app_name.
+    buildFeatures {
+        resValues = true
+    }
+
+    signingConfigs {
+        create("release") {
+            if (hasReleaseKeystore) {
+                keyAlias = keystoreProperties["keyAlias"] as String
+                keyPassword = keystoreProperties["keyPassword"] as String
+                storeFile = file(keystoreProperties["storeFile"] as String)
+                storePassword = keystoreProperties["storePassword"] as String
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = if (hasReleaseKeystore) signingConfigs.getByName("release") else signingConfigs.getByName("debug")
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+        // Same key for debug so local runs and App Distribution builds replace each other.
+        debug {
+            signingConfig = if (hasReleaseKeystore) signingConfigs.getByName("release") else signingConfigs.getByName("debug")
+        }
+    }
+
+    // dev: separate package (installs side by side with prod), "DEV" label and icons.
+    // Both packages are registered in android/app/google-services.json (Firebase project hater-lekha-app).
+    flavorDimensions += "audience"
+    productFlavors {
+        create("dev") {
+            dimension = "audience"
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = "-dev"
+            resValue("string", "app_name", "DEV হাতের লেখা")
+        }
+        create("prod") {
+            dimension = "audience"
+            resValue("string", "app_name", "হাতের লেখা")
         }
     }
 }

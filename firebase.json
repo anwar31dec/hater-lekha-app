@@ -1,0 +1,18 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "hater-lekha-app",
+          "appId": "1:890856229289:android:9c58d3529781a772fd5cb8",
+          "fileOutput": "android/app/google-services.json"
+        },
+        "dev": {
+          "projectId": "hater-lekha-app",
+          "appId": "1:890856229289:android:d910622e843c4475fd5cb8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  }
+}

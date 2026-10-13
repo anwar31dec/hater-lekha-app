@@ -76,11 +76,39 @@ voice, sounds, left-handed layout, reset).
 
 ```bash
 flutter pub get
-flutter run                      # device / emulator
-flutter run -d chrome            # web
-flutter build apk --release      # Android
-flutter test && flutter analyze  # checks
+flutter run --flavor dev                    # device / emulator (Android needs a flavor)
+flutter run -d chrome                       # web
+flutter build apk --release --flavor prod   # Android
+flutter test && flutter analyze             # checks
 ```
+
+### Android flavors, Firebase and test builds
+
+| Flavor | Package | Label | Firebase app id |
+|---|---|---|---|
+| `prod` | `com.haterlekha.hater_lekha` | হাতের লেখা | `1:890856229289:android:9c58d3529781a772fd5cb8` |
+| `dev` | `com.haterlekha.hater_lekha.dev` | DEV হাতের লেখা | `1:890856229289:android:d910622e843c4475fd5cb8` |
+
+- Firebase project **`hater-lekha-app`** (owner `anwarcs36@gmail.com`), Crashlytics + Analytics on
+  Android only. One `android/app/google-services.json` holds both clients; the Gradle plugin picks
+  the one matching the flavor. `firebase login:use anwarcs36@gmail.com` once in this directory.
+- Both flavors install side by side; `dev` has a red DEV band on its icon
+  (`android/app/src/dev/res`).
+- Release signing reads `android/key.properties` (git-ignored) pointing at
+  `android/keystore/hater-lekha-keystore.jks` (git-ignored). Debug builds use the same key so a
+  local run and a test build replace each other. **Back the keystore up** — without it testers must
+  uninstall before the next update. CI has neither file and falls back to the debug key.
+- Test builds go to Firebase App Distribution, tester group alias `sofworks-testers`:
+
+```bash
+./release_script.sh dev     # bump patch + dev counter, test, build, upload dev flavor
+./release_script.sh prod    # bump patch + build number, test, build, upload prod flavor
+```
+
+  Edit `release_note.txt` first (testers see it as "What's new"). Every build is also kept in
+  `build/releases/`. Add testers with
+  `firebase appdistribution:testers:add a@b.com --group-alias sofworks-testers --project hater-lekha-app`;
+  they accept the e-mail invite and install builds through the Firebase App Tester app.
 
 Regenerate glyph data after editing `tool/author_glyphs.py`:
 

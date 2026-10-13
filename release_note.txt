@@ -1,0 +1,3 @@
+- First test build of Hater Lekha (হাতের লেখা)
+- Bengali, English and number handwriting practice with stroke guides and voice prompts
+- Please report anything that looks wrong, crashes are collected automatically
